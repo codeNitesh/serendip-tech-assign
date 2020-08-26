@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "PolygonGenerator",
+    "slug": "polygen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A simple mobile app that allow the user to input two integers, x and y (where 0 ≤ x and y ≤ 10). The output is an integer n, where n = x + y. When the user inputs x and y, this app show n as output and display a shape\nwith the number of sides equal to n."
+  }
+}
